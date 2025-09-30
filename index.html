@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <article id="form">
+                <h1>Bem vindo(a)</h1>
+                <h2>Entre na sua conta</h2>
+                <form action="login.java" method="post" autocomplete="on">
+                    
+                    <p id="email">
+                        <label for="iemail">
+                            <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required>
+                        </label>
+                    </p>
+
+                    <p id="senha">
+                        <label for="isenha">
+                            <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="senha" required>
+                        </label>
+                    </p>
+
+                    <article id="campo-senha">
+                        <p><input type="checkbox" name="lembrar" id="ilembrar"><label for="ilembrar">Lembrar de mim</label>
+                        Esqueci a senha</p>
+                    </article>
+
+                    <article id="botao-login">
+                        <button><a href="#">Login</a></button>
+                    </article>
+
+                    <article id="campo-continue">
+                        <p>ou continue com</p>
+
+                    </article>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
