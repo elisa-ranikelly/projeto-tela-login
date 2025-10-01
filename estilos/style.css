@@ -103,7 +103,8 @@ article#campo-senha label {
 
 article#campo-senha a {
     display: inline-block;
-    float: right;       
+    color: var(--cor04);
+    float: right;  
 }
 
 article#campo-senha a:hover {
@@ -174,6 +175,10 @@ article#cadastro{
 
 article#cadastro > p{
     padding: 5px;
+}
+
+article#cadastro a{
+    color: var(--cor04);
 }
 
 article#cadastro > a:hover{
