@@ -3,11 +3,15 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     
     body{
-        background-image: linear-gradient(to bottom, var(--cor0), #1f052a);
+        background-image: linear-gradient(to bottom, var(--cor01), #1f052a);
     }
 
     main > section#login{
         width: 400px;
+    }
+
+    article#botao > button{
+        width: 20%;
     }
 }
 
@@ -20,6 +24,10 @@
     main > section#login{
        width: 500px;
     }
+
+    article#botao > button{
+        width: 20%;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -30,5 +38,9 @@
 
     main > section#login{
         width: 700px;
+    }
+
+    article#botao > button{
+        width: 20%;
     }
 }
